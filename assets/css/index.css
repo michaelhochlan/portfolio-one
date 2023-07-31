@@ -7,6 +7,13 @@
 
 /* Set standard values */
 
+a {
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: #4501ff;
+}
+
 p {
     font-size: 18px;
     font-family: 'Nunito Sans', sans-serif;
@@ -163,6 +170,8 @@ h2 {
 
 /* page content beginning */
 
+/* Page quote */
+
 .quote {
     text-align: center;
     padding: 50px;
@@ -171,14 +180,22 @@ h2 {
     font-weight: 400;
 }
 
-.container {
+/* Page quote end */
+
+/* Flexbox beginning */
+
+.container-index {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     text-align: justify;
     gap: 5%;
     width: 80%;
     margin: auto;
 }
+
+/* index.html */
 
 .why {
     order: 1;
@@ -187,21 +204,53 @@ h2 {
 }
 
 .where {
-    order: 3;
+    order: 2;
     width: 45%;
 }
 
 .what {
-    order: 4;
+    order: 3;
     width: 45%;
 
 }
 
 .medical {
-    order: 5;
+    order: 4;
     width: 45%;
 
 }
+
+/* recepies.html */
+
+.container-recepies {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    gap: 3.75%;
+    width: 90%;
+    margin: auto;
+}
+
+.coffee {
+    order: 1;
+    width: 25%;
+
+}
+
+.capers {
+    order: 2;
+    width: 25%;
+}
+
+.tincture {
+    order: 3;
+    width: 25%;
+
+}
+
+/* Flexbox end */
 
 /* page content end */
 
