@@ -5,6 +5,27 @@
     border: none;
 }
 
+/* Set standard values */
+
+p {
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: #2e3234;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    font-weight: 800;
+    color: #2e3234;
+}
+
+/* Navigation CSS beginning */
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: black;
@@ -112,3 +133,110 @@
         text-align: left;
     }
 }
+
+/* Navigation end */
+
+/* Header beginning */
+
+#header-img {
+    background-image: url('../images/header.jpg');
+}
+
+.header-quote {
+    height: 90vh;
+    background: center 25% / cover no-repeat;
+    padding: 6%;
+}
+
+#quote {
+    text-align: left;
+    font-size: 24px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+/* Header end */
+
+/* page content beginning */
+
+.quote {
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    gap: 5%;
+    width: 80%;
+    margin: auto;
+}
+
+.why {
+    order: 1;
+    width: 45%;
+
+}
+
+.where {
+    order: 3;
+    width: 45%;
+}
+
+.what {
+    order: 4;
+    width: 45%;
+
+}
+
+.medical {
+    order: 5;
+    width: 45%;
+
+}
+
+/* page content end */
+
+/* Footer beginning */
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+
+#footer-p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 150%;
+    color: white;
+    text-align: center;
+}
+
+.footer li {
+    display: inline;
+}
+
+.footer i {
+    font-size: 250%;
+    margin: 1%;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.footer i:hover {
+    background-color: rgba(255, 205, 25, 1);
+    color: black;
+}
+
+/* Footer end */
