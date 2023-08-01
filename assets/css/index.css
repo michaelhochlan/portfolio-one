@@ -26,10 +26,11 @@
   }
   
   h2 {
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
+    font-size: 180%;
+    font-family: 'Caveat', cursive;
     text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
     padding: 15px;
     font-weight: 800;
     color: #2e3234;
@@ -184,7 +185,7 @@
     color: #2b6200 ;
     font-family: 'Caveat', cursive;
     text-align: center;
-    font-size: 24px;
+    font-size: 150%;
     font-weight: 400;
     text-transform: uppercase;
   }
@@ -335,6 +336,10 @@
       height: auto;
       display: block;
       margin: 2% auto;
+    }
+
+    .capers-section {
+      margin-top: 5%;
     }
   
   /* Flexbox end for index.html */
