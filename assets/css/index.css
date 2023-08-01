@@ -19,7 +19,7 @@
   }
   
   p {
-    font-size: 18px;
+    font-size: 130%;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
     color: #2e3234;
@@ -325,7 +325,7 @@
 
 /* Flexbox end */
   
-    .coffee-article {
+    .recepies-article {
       width: 50%;
       text-align: justify;
       margin: auto;
