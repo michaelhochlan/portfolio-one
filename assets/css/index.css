@@ -341,6 +341,15 @@
     .capers-section {
       margin-top: 5%;
     }
+
+    .tincture-section {
+      margin-top: 5%;
+    }
+
+    .capers-recepie {
+      background-color: #f5f5f5;
+      border-radius: 20px;
+    }
   
   /* Flexbox end for index.html */
   
