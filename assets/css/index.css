@@ -5,6 +5,10 @@
     border: none;
   }
   
+  /* Import Google Font Caveat for the quotes */
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
   /* Set standard values */
   
   a {
@@ -167,21 +171,21 @@
   
   /* Page quote beginning */
   .quote {
-    text-align: center;
-    font-size: 24px;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
     border: none;
     outline: none;
     animation-name: quote-zoom;
     animation-delay: 5s;
-      animation-duration: 3s;
-      animation-fill-mode: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
   }
   
   .quote > h2 {
-    color: rgb(243, 6, 6);
+    color: #2b6200 ;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
   }
   /* Quote animation */
   
@@ -291,13 +295,38 @@
     padding: 10px;
   }
   
-  /* Flexbox end */
+.flex-gallery1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3%;
+    justify-content: center;
+    text-align: justify;
+}
+
+#flex-img1 {
+  width: 20%;
+  height: auto;
+  padding: 10px;
+}
+
+#flex-img2 {
+  width: 20%;
+  height: auto;
+  padding: 10px;
+}
+
+#flex-img3 {
+  width: 20%;
+  height: auto;
+  padding: 10px;
+}
+
+/* Flexbox end */
   
     .coffee-article {
       width: 50%;
       text-align: justify;
       margin: auto;
-      padding-top: 5%;
     }
   
     #article-img {
