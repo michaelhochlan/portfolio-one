@@ -56,14 +56,99 @@
     </section>
 
     <!-- Contact form -->
-    <section class="form-section">
-        
-        <form action="https://formdump.codeinstitute.net/" method="POST" class="contact-form">
+    <section>
+        <div>
+        <h2>Contact Form</h2>
+        <h3>Send us your dandelion recepie</h3>
+        <div class="container">
+            <form action="https://formdump.codeinstitute.net/" method="POST" class="contact-form">
+    
+                <label for="fname">First Name <span class="req">*</span></label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
+                <label for="lname">Last Name <span class="req">*</span></label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+                <label for="email">E-Mail <span class="req">*</span></label>
+                <input type="email" id="email" name="email" placeholder="Your E-Mail.." required>
+
+                <label for="category">Please choose a Category..</label>
+                <select id="category" name="category">
+                    <option value="choose">This belongs into..</option>
+                    <option value="off-grid">Off-grid</option>
+                    <option value="herbalism">Herbalism</option>
+                    <option value="foraging">Foraging</option>
+                    <option value="preserving">Preserving</option>
+                    <option value="cosmetics">Cosmetics</option>
+                    <option value="medical">Medical</option>
+                    <option value="other">other..</option>
+                </select>
+
+
+            <p>Please publish my recepie on <em>www.dandelion101.com</em>:</p>
+            <div id="radios-inline">
+
+            <label for="publish-recepie-yes" id="label">Yes</label>
+            <input type="radio" id="recepie-yes" name="publishing_preference_recepie" value="yes">
+         
+ 
+            <label for="publish-recepie-no" id="label">No</label>
+            <input type="radio" id="recepie-no" name="publishing_preference_recepie" value="no" checked="true">
+
+        </div>
+
+        <p>It's ok to publish my name:</p>
+
+        <div id="radios-inline">
+
+            <label for="publish-name-yes" id="label">Yes</label>
+            <input type="radio" id="name-yes" name="publishing_preference_name" value="yes">
+
+            <label for="publish-name-no" id="label">No</label>
+            <input type="radio" id="name-no" name="publishing_preference_name" value="no" checked="true">
+        
+        </div>
+
+        <p>Please send me a notification with a link when published:</p>
+
+        <div id="radios-inline">
+
+
+            <label for="notification-yes" id="label">Yes</label>
+            <input type="radio" id="notification-yes" name="notification_preference" value="yes">
+
+            <label for="notification-no" id="label">No</label>
+            <input type="radio" id="notification-no" name="notification_preference" value="no" checked="true">
+
+        </div>
+        
+        <p>Sign me up for the <em>Dandelion Newsletter:</em></p>
+        
+            <div id="radios-inline">
+            
+            <label for="newsletter-yes" id="label">Yes</em></label>
+            <input type="radio" id="newsletter-yes" name="newsletter_preference" value="yes">
+
+            <label for="newsletter-no" id="label">No</em></label>
+            <input type="radio" id="newsletter-no" name="newsletter_preference" value="no" checked="true">
+
+        </div>
+
+        <div>
+        <label for="subject">Your recepie / message <span class="req">*</span></label>
+        <textarea id="subject" name="subject" placeholder="Your recepie or message.." style="height:200px" required></textarea>
+        </div>
+
+    <input type="submit" value="Submit">
+
+  </form>
+    </div>
+    </div>
 	</section>	
 
     <!-- Footer -->
     <footer class="footer">
+        <div>
 
         <a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
 
@@ -72,7 +157,7 @@
         <a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
 
         <p id="footer-p">Copyright © <em>Eat the weed</em> 2023</p>
-
+        </div>
     </footer>
 
 </body>
