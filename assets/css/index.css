@@ -139,17 +139,8 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media screen and (max-width: 600px) {
-  
-    #myTopnav .topnav .dropdown .dropbtn {
-        float: none;
-        display: block;
-        width: 100%;
-        text-align: left;
-    }
-  }
+
+
   
   /* Navigation end */
   
@@ -221,7 +212,7 @@
     background-color: #f5f5f5;
     color: black;
     border-radius: 10px;
-    padding: 10px; /* was anderes */
+    padding: 10px;
   }
   
   .where {
@@ -237,7 +228,7 @@
     background-color: #f5f5f5;
     color: black;
     border-radius: 10px;
-    padding: 10px; /* was anderes */
+    padding: 10px;
   }
   
   .medical {
@@ -268,7 +259,7 @@
     background-color: #f5f5f5;
     color: black;
     border-radius: 10px;
-    padding: 10px; /* was anderes */
+    padding: 10px;
   }
   
   .capers {
@@ -282,7 +273,7 @@
     background-color: #f5f5f5;
     color: black;
     border-radius: 10px;
-    padding: 10px; /* was anderes */
+    padding: 10px;
   }
   
 .flex-gallery1 {
@@ -296,19 +287,19 @@
 #flex-img1 {
   width: 20%;
   height: auto;
-  padding: 10px; /* was anderes */
+  padding: 10px;
 }
 
 #flex-img2 {
   width: 20%;
   height: auto;
-  padding: 10px; /* was anderes */
+  padding: 10px;
 }
 
 #flex-img3 {
   width: 20%;
   height: auto;
-  padding: 10px; /* was anderes */
+  padding: 10px;
 }
 
 /* Flexbox end for recepies.html*/
@@ -510,7 +501,14 @@
   */
 
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-   
+   #header-img {
+    background-image: url('../images/header-768-1024.jpg');
+    height:350px;
+    width:auto;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-top: 15%;
+  }
   }
 
   /* 
@@ -532,10 +530,10 @@
 
   /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
+  ##Screen = B/w 100px to 479px
   */
 
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 100px) and (max-width: 480px) {
 
     #header-img {
     background-image: url('../images/header-320-480.jpg');
@@ -546,10 +544,65 @@
     padding-top: 15%;
     }
 
-    #myTopnav .topnav .dropdown .dropbtn {
+    #myTopnav .topnav .dropdown .dropbtn .logo {
     float: none;
     display: block;
     width: 100%;
-    text-align: left;
+    text-align: right;
   }
-    }
+  
+    h2 {
+    font-size: 140%;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 15px;
+    color: #2e3234;
+  }
+
+  a {
+    font-size: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: #4501ff;
+  }
+  
+  p {
+    font-size: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: #2e3234;
+  }
+
+  label {
+      display: block;
+      margin-top: 1em;
+      font-size: 100%;
+  }
+
+  .container {
+      
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+      width: 80%;
+      margin: auto;
+      font-size: 100%;
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight: 400;
+      color: #2e3234;
+  }
+
+  .coffee .capers .tincture {
+    width: 60%;
+    padding-bottom: 3%;
+    flex-direction: column;
+  }
+
+  .container-recepies {
+    display: flex;
+    flex-direction: column;
+  }
+   }
+
