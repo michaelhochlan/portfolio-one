@@ -30,6 +30,16 @@
     padding: 15px;
     color: #2e3234;
   }
+
+  h3 {
+    font-size: 150%;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px;
+    color: #2e3234;
+  }
   
   /* Navigation CSS beginning */
   
@@ -150,7 +160,8 @@
     height:534px;
     width:auto;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: bottom center;
+    padding-top: 50px;
   }
   
   /* Page quote beginning */
@@ -477,24 +488,6 @@
   /* Media-queries */
 
   /* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops 
-  */
-
-  @media (min-width: 1281px) {
-
-  }
-
-  /*  
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-  */
-
-  @media (min-width: 1025px) and (max-width: 1280px) {
-
-  }
-
-  /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
   */
@@ -502,11 +495,12 @@
   @media (min-width: 768px) and (max-width: 1024px) {
    
     #header-img {
-    background-image: url('assets/images/header-768-1024.jpg');
-    height:300px;
+    background-image: url('../images/header-768-1024.jpg');
+    height:250px;
     width:auto;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: bottom center;
+    padding-top: 15%;
   }
   }
 
@@ -517,13 +511,6 @@
 
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
    
-    #header-img {
-    background-image: url('assets/images/header-768-1024.jpg');
-    height:300px;
-    width:auto;
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
   }
 
   /* 
@@ -534,11 +521,12 @@
   @media (min-width: 481px) and (max-width: 767px) {
 
     #header-img {
-    background-image: url('assets/images/header-481-767.jpg');
+    background-image: url('../images/header-481-767.jpg');
     height:200px;
     width:auto;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: bottom center;
+    padding-top: 25%;
   }
   }
 
@@ -550,10 +538,18 @@
   @media (min-width: 320px) and (max-width: 480px) {
 
     #header-img {
-    background-image: url('assets/images/header-320-480.jpg');
-    height:185px;
+    background-image: url('../images/header-320-480.jpg');
+    height:350px;
     width:auto;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: bottom center;
+    padding-top: 15%;
+    }
+
+    #myTopnav .topnav .dropdown .dropbtn {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
   }
     }
