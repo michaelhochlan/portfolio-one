@@ -519,7 +519,7 @@
    
     #header-img {
     background-image: url('assets/images/header-768-1024.jpg');
-    height:513px;
+    height:300px;
     width:auto;
     background-repeat: no-repeat;
     background-position: center center;
@@ -535,7 +535,7 @@
 
     #header-img {
     background-image: url('assets/images/header-481-767.jpg');
-    height:300px;
+    height:200px;
     width:auto;
     background-repeat: no-repeat;
     background-position: center center;
@@ -551,7 +551,7 @@
 
     #header-img {
     background-image: url('assets/images/header-320-480.jpg');
-    height:300px;
+    height:185px;
     width:auto;
     background-repeat: no-repeat;
     background-position: center center;
