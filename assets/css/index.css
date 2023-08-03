@@ -4,10 +4,6 @@
     padding: 0;
     border: none;
   }
-  
-  /* Import Google Font Caveat for the quotes */
-
-  @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
   /* Set standard values */
   
@@ -32,21 +28,7 @@
     font-weight: 400;
     text-transform: uppercase;
     padding: 15px;
-    font-weight: 800;
     color: #2e3234;
-  }
-  
-  h3 {
-      font-family: 'Nunito', sans-serif;
-      font-weight: 500;
-      font-size: 120%;
-      font-weight: bold;
-      text-transform: uppercase;
-      text-align: center;
-      text-decoration: none;
-      letter-spacing: 2px;
-      padding:2%;
-      color: #343f45;
   }
   
   /* Navigation CSS beginning */
@@ -83,7 +65,7 @@
   
   /* Add an active class to highlight the current page */
   #active {
-    background-color: rgba(255, 205, 25, 1);
+    background-color: rgb(255, 205, 25);
     color: black;
   }
   
@@ -115,7 +97,7 @@
     position: absolute;
     background-color: black;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     z-index: 1;
   }
@@ -133,13 +115,13 @@
   /* Add a yellow background and black font color on topnav links and the dropdown button on hover */
   .topnav a:hover,
   .dropdown:hover .dropbtn {
-    background-color: rgba(255, 205, 25, 1);
+    background-color: rgb(255, 205, 25);
     color: black;
   }
   
   /* Add a yellow background and black font color to dropdown links on hover */
   .dropdown-content a:hover {
-    background-color: rgba(255, 205, 25, 1);
+    background-color: rgb(255, 205, 25);
     color: black;
   }
   
@@ -165,8 +147,8 @@
   
   #header-img {
     background-image: url('../images/header-klein.jpg');
-    height: 534px;
-    width: auto;
+    height:534px;
+    width:auto;
     background-repeat: no-repeat;
     background-position: center center;
   }
@@ -180,14 +162,11 @@
     animation-fill-mode: forwards;
   }
   
-  .quote > h2 {
+   .quote > h2 {
     color: #2b6200 ;
-    font-family: 'Caveat', cursive;
-    text-align: center;
-    font-size: 150%;
-    font-weight: 400;
     text-transform: uppercase;
-  }
+  } 
+  
   /* Quote animation */
   
   @keyframes quote-zoom {
@@ -215,10 +194,10 @@
   .container-index {
     display: flex;
     flex-wrap: wrap;
+    gap: 5%;
     align-items: flex-start;
     justify-content: center;
     text-align: justify;
-    gap: 5%;
     width: 80%;
     margin: auto;
     
@@ -231,7 +210,7 @@
     background-color: #f5f5f5;
     color: black;
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px; /* was anderes */
   }
   
   .where {
@@ -247,7 +226,7 @@
     background-color: #f5f5f5;
     color: black;
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px; /* was anderes */
   }
   
   .medical {
@@ -278,8 +257,7 @@
     background-color: #f5f5f5;
     color: black;
     border-radius: 10px;
-    border-radius: 10px;
-    padding: 10px;
+    padding: 10px; /* was anderes */
   }
   
   .capers {
@@ -293,7 +271,7 @@
     background-color: #f5f5f5;
     color: black;
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px; /* was anderes */
   }
   
 .flex-gallery1 {
@@ -307,19 +285,19 @@
 #flex-img1 {
   width: 20%;
   height: auto;
-  padding: 10px;
+  padding: 10px; /* was anderes */
 }
 
 #flex-img2 {
   width: 20%;
   height: auto;
-  padding: 10px;
+  padding: 10px; /* was anderes */
 }
 
 #flex-img3 {
   width: 20%;
   height: auto;
-  padding: 10px;
+  padding: 10px; /* was anderes */
 }
 
 /* Flexbox end for recepies.html*/
@@ -401,7 +379,7 @@
   }
 
     input[type=submit]:hover {
-      background-color: rgba(255, 205, 25, 1);
+      background-color: rgb(255, 205, 25);
       color: black;
   }
 
@@ -423,7 +401,7 @@
       
       border-radius: 5px;
       background-color: #f2f2f2;
-      padding: 20px;
+      padding: 20px; /* was anderes */
       width: 50%;
       margin: auto;
       font-size: 130%;
@@ -489,7 +467,7 @@
   }
   
   .footer i:hover {
-    background-color: rgba(255, 205, 25, 1);
+    background-color: rgb(255, 205, 25);
     color: black;
   }
   
@@ -522,7 +500,13 @@
   */
 
   @media (min-width: 768px) and (max-width: 1024px) {
-
+    #header-img {
+    background-image: url('../images/header-768.jpg');
+    height:513px;
+    width:auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
   }
 
   /* 
@@ -531,7 +515,13 @@
   */
 
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
+    #header-img {
+    background-image: url('../images/header-768.jpg');
+    height:513px;
+    width:auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
   }
 
   /* 
