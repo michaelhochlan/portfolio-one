@@ -526,7 +526,43 @@
     background-position: bottom center;
     padding-top: 25%;
   }
+  .container-recepies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: justify;
+    width: 80%;
+    margin: auto;
   }
+
+  .coffee {
+    order: 1;
+    width: 60%;
+    padding-bottom: 3%;
+    background-color: #f5f5f5;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .capers {
+    order: 2;
+    width: 60%;
+    padding-bottom: 3%;
+  }
+  
+  .tincture {
+    order: 3;
+    width: 60%;
+    padding-bottom: 3%;
+    background-color: #f5f5f5;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+  }
+   }
 
   /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -594,15 +630,41 @@
       color: #2e3234;
   }
 
-  .coffee .capers .tincture {
-    width: 60%;
-    padding-bottom: 3%;
-    flex-direction: column;
-  }
-
   .container-recepies {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5%;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+  }
+
+  .coffee {
+    order: 1;
+    width: 60%;
+    padding-bottom: 3%;
+    background-color: #f5f5f5;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .capers {
+    order: 2;
+    width: 60%;
+    padding-bottom: 3%;
+  }
+  
+  .tincture {
+    order: 3;
+    width: 60%;
+    padding-bottom: 3%;
+    background-color: #f5f5f5;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
   }
    }
 
