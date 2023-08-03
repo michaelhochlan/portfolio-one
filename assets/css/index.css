@@ -497,6 +497,26 @@
   }
   }
 
+    /* Tne Navigation appears underneath the logo */
+  @media (min-width: 390px) and (max-width: 900px) {
+    .logo {
+    width: 100%;
+  }
+  }
+
+  /* Tne Navigation appears underneath the logo */
+  @media (min-width: 150px) and (max-width: 390px) {
+    .logo {
+    width: 100%;
+  }
+  .topnav a {
+    font-size: 12px;
+  }
+ .dropdown .dropbtn {
+    font-size: 12px;
+  }
+}
+
   /* 
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
@@ -528,6 +548,7 @@
     background-position: bottom center;
     padding-top: 25%;
   }
+   
   .container-recepies {
     display: flex;
     flex-wrap: wrap;
@@ -581,13 +602,6 @@
     background-position: bottom center;
     padding-top: 15%;
     }
-
-    #myTopnav .topnav .dropdown .dropbtn .logo {
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: right;
-  }
   
     h2 {
     font-size: 140%;
