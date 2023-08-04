@@ -353,6 +353,14 @@
       width: 75%;
       margin: auto;
     }
+
+    .tincture-dosage > h3 {
+      font-size: 100%;
+    }
+
+    .dosage-fontsize > h3 {
+      font-size: 100%
+    }
   
   /* page content end */
   
