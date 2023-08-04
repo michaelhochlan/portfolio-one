@@ -211,6 +211,7 @@ h3 {
   border-radius: 10px;
   padding: 10px;
 }
+
 .why {
   order: 2;
   width: 60%;
@@ -310,6 +311,7 @@ h3 {
 /* Flexbox end for recepes.html*/
 
 /* styles for the recepes.html site beginning */
+
 .recepes-article {
   width: 50%;
   text-align: justify;
@@ -402,6 +404,7 @@ input[type="submit"]:hover {
   background-color: rgb(255, 205, 25);
   color: black;
 }
+
 input[type="reset"] {
   background-color: black;
   color: white;
