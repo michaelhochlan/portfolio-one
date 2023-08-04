@@ -446,10 +446,24 @@
       color: #2e3234;
   }
 
-  #radios-inline{
+   .publish-recepe {
     display: flex;
     flex-wrap: wrap;
+   }
 
+   .publish-name {
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+   .notification {
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+   .newsletter {
+    display: flex;
+    flex-wrap: wrap;
    }
 
   ::placeholder {
