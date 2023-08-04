@@ -335,7 +335,7 @@
       margin-top: 5%;
     }
 
-    .capers-recepes {
+    .capers-recepe {
       background-color: #f5f5f5;
       border-radius: 20px;
     }
@@ -557,7 +557,7 @@
     #header-img {
     background-image: url('../images/header-481-767.jpg');
     height:200px;
-    padding-top: 25%;
+    padding-top: 15%;
   } 
 
   .tincture-list {
@@ -600,7 +600,7 @@
     height:350px;
     padding-top: 15%;
     }
-  
+
     h2 {
     font-size: 160%;
   }
