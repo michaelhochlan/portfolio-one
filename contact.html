@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Everything you will ever know about dandelion">
-    <meta name="keywords"
-        content="dandelion, dandelion coffee, dandelion capers, dandelion tincture, foraging, off-grid, dandelion 101">
+    <meta
+    name="keywords" content="dandelion, dandelion coffee, dandelion capers, dandelion tincture, foraging, off-grid, dandelion 101">
 
     <!-- Stylesheet -->
-    <link href="assets/css/index.css" rel="stylesheet" type="text/css">
+    <link
+    href="assets/css/index.css" rel="stylesheet" type="text/css">
 
     <!-- Link to Font-Awesome -->
     <script src="https://kit.fontawesome.com/7168861e58.js" crossorigin="anonymous"></script>
@@ -25,139 +26,160 @@
 
     <title>Dandelion 101</title>
 
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Top Navigation bar -->
     <nav>
-        <div class="topnav" id="myTopnav">
-            <div class="logo">
-                <a>Dandelion 101 - All the weed you can eat</a>
-            </div>
-            <div>
-                <a href="contact.html" id="active">Contact Us</a>
-            </div>
-            <div>
-                <a href="recepes.html">Recepies</a>
-            </div>
-            <div>
-                <a href="index.html">Home</a>
-            </div>
+      <div class="topnav" id="myTopnav">
+        <div class="logo">
+          <a>Dandelion 101 - All the weed you can eat</a>
         </div>
+        <div>
+          <a href="contact.html" id="active">Contact Us</a>
+        </div>
+        <div>
+          <a href="recepes.html">Recepies</a>
+        </div>
+        <div>
+          <a href="index.html">Home</a>
+        </div>
+      </div>
     </nav>
 
     <!-- Header image -->
-<header>
-   <div id="header-img">
-   </div>
-    <!-- Animated header quote --> 
-    <div class="quote">
-        
+    <header>
+      <div id="header-img"></div>
+      <!-- Animated header quote -->
+      <div class="quote">
+
         <h2>"Pull out the weeds, or make peace with the dandelions"</h2>
         <h2>Frank Sonnenberg</h2>
-    
-    </div>
+
+      </div>
     </header>
 
     <!-- Contact form -->
     <section>
-        <div>
+      <div>
         <h2>Contact Form</h2>
         <h3>Send us your dandelion recepe</h3>
         <div class="container">
-            <form action="https://formdump.codeinstitute.net/" method="POST" class="contact-form">
-    
-                <label for="fname">First Name <span class="req">*</span></label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+          <form action="https://formdump.codeinstitute.net/" method="POST" class="contact-form">
 
-                <label for="lname">Last Name <span class="req">*</span></label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+            <label for="fname">First Name
+              <span class="req">*</span>
+            </label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
-                <label for="email">E-Mail <span class="req">*</span></label>
-                <input type="email" id="email" name="email" placeholder="Your E-Mail.." required>
+            <label for="lname">Last Name
+              <span class="req">*</span>
+            </label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
 
-                <label for="category">Please choose a Category..</label>
-                <select id="category" name="category">
-                    <option value="choose">This belongs into..</option>
-                    <option value="off-grid">Off-grid</option>
-                    <option value="herbalism">Herbalism</option>
-                    <option value="foraging">Foraging</option>
-                    <option value="preserving">Preserving</option>
-                    <option value="cosmetics">Cosmetics</option>
-                    <option value="medical">Medical</option>
-                    <option value="other">other..</option>
-                </select>
+            <label for="email">E-Mail
+              <span class="req">*</span>
+            </label>
+            <input type="email" id="email" name="email" placeholder="Your E-Mail.." required>
 
-    <div>
-        <p>Please publish my recepe on <em>www.dandelion101.xyz</em></p>
+            <label for="category">Please choose a Category..</label>
+            <select id="category" name="category">
+              <option value="choose">This belongs into..</option>
+              <option value="off-grid">Off-grid</option>
+              <option value="herbalism">Herbalism</option>
+              <option value="foraging">Foraging</option>
+              <option value="preserving">Preserving</option>
+              <option value="cosmetics">Cosmetics</option>
+              <option value="medical">Medical</option>
+              <option value="other">other..</option>
+            </select>
 
-        <div class="publish-recepe">
-        <label for="recepe-yes">Yes</label>
-        <input type="radio" id="recepe-yes" name="publishing_preference_recepe" value="yes">
-           
-        <label for="recepe-no">No</label>
-        <input type="radio" id="recepe-no" name="publishing_preference_recepe" value="no">
-        </div>
+            <div>
+              <p>Please publish my recepe on
+                <em>www.dandelion101.xyz</em>
+              </p>
 
-        <p>It's ok to publish my name:</p>
+              <div class="publish-recepe">
+                <label for="recepe-yes">Yes</label>
+                <input type="radio" id="recepe-yes" name="publishing_preference_recepe" value="yes">
 
-        <div class="publish-name">
-        <label for="name-yes">Yes</label>
-        <input type="radio" id="name-yes" name="publishing_preference_name" value="yes">
+                <label for="recepe-no">No</label>
+                <input type="radio" id="recepe-no" name="publishing_preference_recepe" value="no">
+              </div>
 
-        <label for="name-no">No</label>
-        <input type="radio" id="name-no" name="publishing_preference_name" value="no">
-        </div>
+              <p>It's ok to publish my name:</p>
 
-        <p>Please send me a notification with a link when published:</p>
+              <div class="publish-name">
+                <label for="name-yes">Yes</label>
+                <input type="radio" id="name-yes" name="publishing_preference_name" value="yes">
 
-        <div class="notification">
-        <label for="notification-yes">Yes</label>
-        <input type="radio" id="notification-yes" name="notification_preference" value="yes">
+                <label for="name-no">No</label>
+                <input type="radio" id="name-no" name="publishing_preference_name" value="no">
+              </div>
 
-        <label for="notification-no">No</label>
-        <input type="radio" id="notification-no" name="notification_preference" value="no">
-        </div>
+              <p>Please send me a notification with a link when published:</p>
 
-        <p>Sign me up for the <em>Dandelion Newsletter:</em></p>
-        
-            <div class="newsletter">
-            <label for="newsletter-yes">Yes</label>
-            <input type="radio" id="newsletter-yes" name="newsletter_preference" value="yes">
+              <div class="notification">
+                <label for="notification-yes">Yes</label>
+                <input type="radio" id="notification-yes" name="notification_preference" value="yes">
 
-            <label for="newsletter-no">No</label>
-            <input type="radio" id="newsletter-no" name="newsletter_preference" value="no">
+                <label for="notification-no">No</label>
+                <input type="radio" id="notification-no" name="notification_preference" value="no">
+              </div>
+
+              <p>Sign me up for the
+                <em>Dandelion Newsletter:</em>
+              </p>
+
+              <div class="newsletter">
+                <label for="newsletter-yes">Yes</label>
+                <input type="radio" id="newsletter-yes" name="newsletter_preference" value="yes">
+
+                <label for="newsletter-no">No</label>
+                <input type="radio" id="newsletter-no" name="newsletter_preference" value="no">
+              </div>
             </div>
-        </div>
 
-        <div>
-        <label for="subject">Your recepe / message <span class="req">*</span></label>
-        <textarea id="subject" name="subject" placeholder="Your recepe or message.." style="height:200px" required></textarea>
-        </div>
-    <input type="reset" value="Reset">    
-    <input type="submit" value="Submit">
+            <div>
+              <label for="subject">Your recepe / message
+                <span class="req">*</span>
+              </label>
+              <textarea id="subject" name="subject" placeholder="Your recepe or message.." style="height:200px" required></textarea>
+            </div>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
 
-  </form>
-    </div>
-    </div>
-	</section>	
+          </form>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div>
+      <div>
 
-        <a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.facebook.com" target="_blank" rel="noopener">
+          <i class="fab fa-facebook"></i>
+        </a>
 
-        <a href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a>
-        
-        <a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube-square"></i></a>
-        
-        <a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.twitter.com" target="_blank" rel="noopener">
+          <i class="fab fa-twitter-square"></i>
+        </a>
 
-        <p id="footer-p">Copyright © <em>Eat the weed</em> 2023</p>
-        </div>
+        <a href="https://www.youtube.com" target="_blank" rel="noopener">
+          <i class="fab fa-youtube-square"></i>
+        </a>
+
+        <a href="https://www.instagram.com" target="_blank" rel="noopener">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <p id="footer-p">Copyright ©
+          <em>Eat the weed</em>
+          2023</p>
+      </div>
     </footer>
 
-</body>
+  </body>
 
 </html>
