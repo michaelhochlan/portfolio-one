@@ -207,7 +207,7 @@
     
   }
   
-  .why {
+  .about {
     order: 1;
     width: 60%;
     padding-bottom: 3%;
@@ -216,14 +216,13 @@
     border-radius: 10px;
     padding: 10px;
   }
-  
-  .where {
+  .why {
     order: 2;
     width: 60%;
     padding-bottom: 3%;
   }
   
-  .what {
+  .where {
     order: 3;
     width: 60%;
     padding-bottom: 3%;
@@ -233,11 +232,20 @@
     padding: 10px;
   }
   
-  .medical {
+  .what {
     order: 4;
     width: 60%;
     padding-bottom: 3%;
+  }
   
+  .medical {
+    order: 5;
+    width: 60%;
+    padding-bottom: 3%;
+    background-color: #f5f5f5;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
   }
   
   /* /* Flexbox end for index.html */
