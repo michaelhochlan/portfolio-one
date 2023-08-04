@@ -343,7 +343,7 @@
     .tincture-list {
       background-color: #f5f5f5;
       border-radius: 20px;
-      width: 30%;
+      width: 60%;
       margin: auto;
     }
 
@@ -486,24 +486,7 @@
   /* Footer end */
 
 
-  /* Media-queries */
-
-  /* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-  */
-
-  @media (min-width: 768px) and (max-width: 1024px) {
-   
-    #header-img {
-    background-image: url('../images/header-768-1024.jpg');
-    height:250px;
-    width:auto;
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    padding-top: 15%;
-  }
-  }
+  /* Media-queries beginning */
 
     /* Tne Navigation appears underneath the logo */
   @media (min-width: 390px) and (max-width: 900px) {
@@ -526,27 +509,15 @@
 }
 
   /* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-  */
-
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-   #header-img {
-    background-image: url('../images/header-768-1024.jpg');
-    height:350px;
-    width:auto;
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    padding-top: 15%;
-  }
-  }
-
-  /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
   */
 
   @media (min-width: 481px) and (max-width: 767px) {
+   
+    h3 {
+      font-size: 120%;
+    }
 
     #header-img {
     background-image: url('../images/header-481-767.jpg');
@@ -555,8 +526,12 @@
     background-repeat: no-repeat;
     background-position: bottom center;
     padding-top: 25%;
+  } 
+
+  .tincture-list {
+    width: 100%;
   }
-   
+
   .container-recepies {
     display: flex;
     flex-wrap: wrap;
@@ -571,11 +546,11 @@
   .coffee {
     order: 1;
     width: 60%;
-    padding-bottom: 3%;
+    /* padding-bottom: 3%;
     background-color: #f5f5f5;
     color: black;
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px;*/
   }
   
   .capers {
@@ -587,11 +562,11 @@
   .tincture {
     order: 3;
     width: 60%;
-    padding-bottom: 3%;
+    /*padding-bottom: 3%;
     background-color: #f5f5f5;
     color: black;
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px;*/
   }
    }
 
@@ -612,33 +587,37 @@
     }
   
     h2 {
-    font-size: 140%;
-    font-family: 'Caveat', cursive;
+    font-size: 160%;
+    /*font-family: 'Caveat', cursive;
     text-align: center;
     font-weight: 400;
     text-transform: uppercase;
     padding: 15px;
-    color: #2e3234;
+    color: #2e3234;*/
   }
 
   a {
     font-size: 12px;
-    font-family: 'Nunito Sans', sans-serif;
+    /*font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
-    color: #4501ff;
+    color: #4501ff;*/
   }
   
   p {
     font-size: 100%;
-    font-family: 'Nunito Sans', sans-serif;
+    /*font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
-    color: #2e3234;
+    color: #2e3234;*/
   }
 
   label {
       display: block;
       margin-top: 1em;
       font-size: 100%;
+  }
+
+  .tincture-list {
+    width: 100%;
   }
 
   .container {
