@@ -526,9 +526,6 @@
     #header-img {
     background-image: url('../images/header-481-767.jpg');
     height:200px;
-    width:auto;
-    background-repeat: no-repeat;
-    background-position: bottom center;
     padding-top: 25%;
   } 
 
@@ -537,48 +534,27 @@
   }
 
   .container-recepies {
-    display: flex;
-    flex-wrap: wrap;
     gap: 5%;
-    align-items: flex-start;
-    justify-content: center;
-    text-align: justify;
     width: 80%;
-    margin: auto;
   }
 
   .coffee {
-    order: 1;
     width: 60%;
-    /* padding-bottom: 3%;
-    background-color: #f5f5f5;
-    color: black;
-    border-radius: 10px;
-    padding: 10px;*/
   }
   
   .capers {
-    order: 2;
     width: 60%;
     padding-bottom: 3%;
   }
   
   .tincture {
-    order: 3;
     width: 60%;
-    /*padding-bottom: 3%;
-    background-color: #f5f5f5;
-    color: black;
-    border-radius: 10px;
-    padding: 10px;*/
   }
 
   label {
       display: block;
-      margin-top: 1em;
-      font-size: 100%;
   }
-  
+
    }
 
   /* 
@@ -591,40 +567,23 @@
     #header-img {
     background-image: url('../images/header-320-480.jpg');
     height:350px;
-    width:auto;
-    background-repeat: no-repeat;
-    background-position: bottom center;
     padding-top: 15%;
     }
   
     h2 {
     font-size: 160%;
-    /*font-family: 'Caveat', cursive;
-    text-align: center;
-    font-weight: 400;
-    text-transform: uppercase;
-    padding: 15px;
-    color: #2e3234;*/
   }
 
   a {
     font-size: 12px;
-    /*font-family: 'Nunito Sans', sans-serif;
-    font-weight: 400;
-    color: #4501ff;*/
   }
   
   p {
     font-size: 100%;
-    /*font-family: 'Nunito Sans', sans-serif;
-    font-weight: 400;
-    color: #2e3234;*/
   }
 
-  label {
+  #label {
       display: block;
-      margin-top: 1em;
-      font-size: 100%;
   }
 
   .tincture-list {
@@ -632,53 +591,29 @@
   }
 
   .container {
-      
-      /* border-radius: 5px;
-      background-color: #f2f2f2;
-      padding: 20px;*/
       width: 80%;
-     /* margin: auto;*/
       font-size: 100%;
-      /*font-family: 'Nunito Sans', sans-serif;
-      font-weight: 400;
-      color: #2e3234;*/
   }
 
   .container-recepies {
-    display: flex;
-    flex-wrap: wrap;
     gap: 5%;
-    align-items: flex-start;
-    justify-content: center;
-    text-align: justify;
     width: 80%;
-    margin: auto;
+ 
   }
 
   .coffee {
-    order: 1;
     width: 60%;
     padding-bottom: 3%;
-    background-color: #f5f5f5;
-    color: black;
-    border-radius: 10px;
-    padding: 10px;
   }
   
   .capers {
-    order: 2;
     width: 60%;
     padding-bottom: 3%;
   }
   
   .tincture {
-    order: 3;
     width: 60%;
     padding-bottom: 3%;
-    background-color: #f5f5f5;
-    color: black;
-    border-radius: 10px;
-    padding: 10px;
   }
    }
 
