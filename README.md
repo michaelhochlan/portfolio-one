@@ -5,3 +5,17 @@ It will encourage people to try new things and get connected with nature. It gua
 
 ![Mockup picture of Dandelion 101](/assets/images/mockup-project-one.jpg)
 
+# Features
+## Existing Features
+
+-   __F01 Navigation Bar__
+
+    - The navigation bar has a consistent look on all three pages. It is fixed to give the visitor easy access
+		especially on pages with a lot of content. The dropdown menu makes for even more accessability.
+
+		- The navigation bar will drop underneath the logo on devices with a max width of 900px
+
+      ![Navbar](/assets/images/navbar.jpg)
+
+
+
