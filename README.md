@@ -20,13 +20,13 @@ It will encourage people to try new things and get connected with nature. It gua
 	- [The recipes page](#the-recipes-page)
 	- [The Contact Us page](#the-contact-us-page)
 - [Technology](#technology)
-- [Testing](#testing)
+- [Validation and Testing](#validation-and-testing)
     - [Functionality testing](#functionality-testing)
     - [Compatibility testing](#compatibility-testing)
-    - [Code Validation](#code-validation)
-    - [User stories testing](#user-stories-testing)
-    - [Issues found during site development](#issues-found-during-site-development)
-    - [Performance testing](#performance-testing)
+    - [HTML Validation](#html-validation)
+    - [CSS Validation](#css-validation)
+    - [Performance](#performance)
+
 - [Deployment](#deployment)
 - [Credits](#credits)
 - [Screenshots](#screenshots)
@@ -164,7 +164,21 @@ ___
 
 [Back to Table of contents](#table-of-contents)
 
-## Validation
+## Validation and Testing
+
+### Functionality testing
+
+All links were tested and are working. The social media links will open in new tabs. The internal and page links work without any issues.
+
+### Compatibility testing
+
+The page was tested in Google Chrome, Firefox, Safari, Microsoft Edge, Opera and Brave on Windows 11, Suse Linux Tumbleweed and Mac OS Catalina.
+Devices I used to test:
+- iMac (MacOS Catalina)
+- PC (Windows 11)
+- G5 (Suse Linux Tumbleweed)
+- Ulefone Armor 8 Pro with Android 12
+No issues were found.
 
 ### HTML Validation
 
@@ -185,3 +199,6 @@ I used the Jigsaw Validator found under http://jigsaw.w3.org for validating the 
 I tested the performance of the page with the Performance tool in Google Chrome Dev Tools.
 
 ![Performance](/assets/images/performance.jpg)
+
+## Deployment
+
