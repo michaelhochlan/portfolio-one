@@ -78,6 +78,7 @@ The website has the features listed below:
 
  ![Homemenu](/assets/images/homemenu.jpg)
  ![Recipesmenu](/assets/images/recipesmenu.jpg)
+ ![Contactusmenu](/assets/images/contactusmenu.jpg)
 
 ## The page header image
 
