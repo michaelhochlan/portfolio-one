@@ -1,10 +1,10 @@
 # Dandelion 101
 
 ### GitHub
-![GitHub](https://github.com/michaelhochlan/portfolio-one)
+https://github.com/michaelhochlan/portfolio-one
 
 ### GitHub Pages
-![GitHub Pages](https://michaelhochlan.github.io/portfolio-one/)
+https://michaelhochlan.github.io/portfolio-one/
 
 Dandelion 101 is a continuously growing fictional page collecting dandelion recipes from around the world. The page aims to reach the community of off-grid and self-reliance enthusiasts who are increasing in numbers by the hour. The page will be a fountain of never-ending ideas.
 It will encourage people to try new things and get connected with nature. It guarantees hours of fun trying out these recipes and getting people to spend more time in nature and actively participate by sending in their own recipes. 
