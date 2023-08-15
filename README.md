@@ -34,10 +34,10 @@ It will encourage people to try new things and get connected with nature. It gua
     - [Performance](#performance)
 - [Deployment](#deployment)
 - [Credits](#credits)
-    -[Content](#content)
-    -[Images](#images)
-    -[Dandelion Quotes](#dandelion-quotes)
-    -[Code](#code)
+    - [Content](#content)
+    - [Images](#images)
+    - [Dandelion Quotes](#dandelion-quotes)
+    - [Code](#code)
 
 
 
