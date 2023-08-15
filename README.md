@@ -1,5 +1,11 @@
 # Dandelion 101
 
+### GitHub
+![GitHub](https://github.com/michaelhochlan/portfolio-one)
+
+### GitHub Pages
+![GitHub Pages](https://michaelhochlan.github.io/portfolio-one/)
+
 Dandelion 101 is a continuously growing fictional page collecting dandelion recipes from around the world. The page aims to reach the community of off-grid and self-reliance enthusiasts who are increasing in numbers by the hour. The page will be a fountain of never-ending ideas.
 It will encourage people to try new things and get connected with nature. It guarantees hours of fun trying out these recipes and getting people to spend more time in nature and actively participate by sending in their own recipes. 
 
@@ -26,10 +32,13 @@ It will encourage people to try new things and get connected with nature. It gua
     - [HTML Validation](#html-validation)
     - [CSS Validation](#css-validation)
     - [Performance](#performance)
-
 - [Deployment](#deployment)
 - [Credits](#credits)
-- [Screenshots](#screenshots)
+    -[Content](#content)
+    -[Images](#images)
+    -[Dandelion Quotes](#dandelion-quotes)
+    -[Code](#code)
+
 
 
 # UX
@@ -121,7 +130,7 @@ the social links. Each link will open in a separate tab in a browser.
 ![Form1](/assets/images/contactus1.jpg)
 ![Form2](/assets/images/contactus2.jpg)
 
-## Features Left to implement
+## Features left to implement
 
 * In the future there will be a Dropdown Menu in alphabetical order to easily find a recipe by name or by author.
 * On the recipes page could be a recipe of the week.
@@ -203,6 +212,56 @@ I tested the performance of the page with the Performance tool in Google Chrome 
 
 ![Performance](/assets/images/performance.jpg)
 
+[Back to Table of contents](#table-of-contents)
+
 ## Deployment
+
+The page was uploaded to GitHub Pages:
+- On GitHub open the Repositories
+- Choose the Repository you want to publish
+- Choose Settings in the top menu
+- In the side menu select Pages
+- Under Source select Deploy from branch
+- Under Branch select main and 7(root)
+- click save and wait a moment to update the page
+- You will find the link to your page on the top under GitHub Pages
+- Click Visit site
+- The page is online
+
+[Back to Table of contents](#table-of-contents)
+
+## Credits
+
+### Content
+
+For the content of the pages I was kindly given written permission by Ms. Ashley Adamant, the creator of https://practicalselfreliance.com/.
+
+### Images
+
+The header images were downloaded from:
+
+<a href="https://de.freepik.com/vektoren-kostenlos/realistische-loewenzahnillustration_5971953.htm#query=loewenzahn&position=16&from_view=keyword&track=sph">Bild von macrovector</a> auf Freepik
+
+<a href="https://de.freepik.com/fotos-kostenlos/weisse-flauschige-loewenzahn-ki-generiertes-bild_43066366.htm#page=2&query=L%C3%B6wenzahn&position=13&from_view=search&track=sph">Bild von WangXiNa</a> auf Freepik
+
+Credit for the Dandelion drawings go to macrovector and WangXiNa
+
+The photos of the page were also kindly provided by Ms. Ashley Adamant, the creator of https://practicalselfreliance.com/.
+
+### Dandelion Quotes
+
+The Dandelion Quotes were found on https://everydaypower.com/dandelion-quotes/#:~:text=Poetic%20dandelion%20quotes%20for%20a%20new%20perspective&text=%E2%80%9CThose%20cotton%20dandelions%20wafting%20on,seeds)%20enjoy%20their%20flight!%E2%80%9D
+
+### Code
+
+- Menu, dropdown and flexbox galary were researched on w3school. I looked up what I needed to know and modified it to fit my needs.
+
+- The code for the required fields in the Contact Form were taken from https://developer.mozilla.org/en-US/docs/Web/CSS/:required?retiredLocale=de
+
+- For the media querries I used the template provided by https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488 and modified it to fit my needs
+
+[Back to Table of contents](#table-of-contents)
+
+
 
 
