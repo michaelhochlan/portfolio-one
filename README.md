@@ -116,8 +116,8 @@ the social links. Each link will open in a separate tab in a browser.
 * The user can also choose if the recipe should be published, if it's ok to publish the visitors name
 	and to get a link to his reipe as soon as it is published.
 
-![Form1](contactus1.jpg)
-![Form2](contactus2.jpg)
+![Form1](/assets/images/contactus1.jpg)
+![Form2](/assets/images/contactus2.jpg)
 
 ## Features Left to implement
 
