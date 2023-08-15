@@ -173,11 +173,14 @@ All links were tested and are working. The social media links will open in new t
 ### Compatibility testing
 
 The page was tested in Google Chrome, Firefox, Safari, Microsoft Edge, Opera and Brave on Windows 11, Suse Linux Tumbleweed and Mac OS Catalina.
+Google Chrome Dev Tools was used to test the responsive design of the page and to determin the width for the different media querries.
+
 Devices I used to test:
 - iMac (MacOS Catalina)
 - PC (Windows 11)
 - G5 (Suse Linux Tumbleweed)
 - Ulefone Armor 8 Pro with Android 12
+
 No issues were found.
 
 ### HTML Validation
@@ -201,4 +204,5 @@ I tested the performance of the page with the Performance tool in Google Chrome 
 ![Performance](/assets/images/performance.jpg)
 
 ## Deployment
+
 
