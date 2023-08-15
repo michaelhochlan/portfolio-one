@@ -76,7 +76,6 @@ The website has the features listed below:
 
 	- The navigation bar will drop underneath the logo on devices with a max width of 900px and less.
 
- ![Navbar](/assets/images/navbar.jpg)
  ![Homemenu](/assets/images/homemenu.jpg)
  ![Recipesmenu](/assets/images/recipesmenu.jpg)
 
