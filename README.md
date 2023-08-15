@@ -108,6 +108,8 @@ the social links. Each link will open in a separate tab in a browser.
 * The navigation is made easy by either jumping directly to the recipe by using the link at the
 	end of the recipe introduction or using the navigation bar.
 
+![RecipesPage](/assets/images/recipes.jpg)
+
 ## The Contact Us page
 
 * The Contact Us page gives the visitor the possibility to sign up for the Dandelion101 newsletter
