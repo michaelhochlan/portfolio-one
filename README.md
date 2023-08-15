@@ -8,11 +8,17 @@ It will encourage people to try new things and get connected with nature. It gua
 # Table of contents
 
 - [UX](#ux)
-    - [Site owner business goals](#website-owner-business-goals)
-    - [Visitor goals](#user-goals)
-        - [New visitor goals](#new-user-goals)
-        - [Returning visitor goals](#returning-user-goals)
+    - [Site owner business goals](#site-owner-business-goals)
+    - [Visitor goals](#visitor-goals)
+        - [New visitor goals](#new-visitor-goals)
+        - [Returning visitor goals](#returning-visitor-goals)
+				- [Frequent visitor goals](#frequent-visitor-goals)
 - [Features](#features)
+		- [Navigation bar](#navigation-bar)
+		- [The page header image](#the-page-header-image)
+		- [Footer](#footer)
+		- [The recipes page](#the-recipes-page)
+		- [The Contact Us page](#the-contact-us-page)
 - [Technology](#technology)
 - [Testing](#testing)
     - [Functionality testing](#functionality-testing)
@@ -30,381 +36,128 @@ It will encourage people to try new things and get connected with nature. It gua
 
 ## Site owner business goals
 
-The main reason to create this website is to help present a fitness instructor to the public.
-Page owner can present herself, her professional development path, achievements and top skills.
-Also this website is the best place to show types of fitness classes, personal training and diet coaching descriptions.
-And at the end owner will be able to present an offer with available packages and prices.
+The goal is to draw as much traffic as possible to the page and the placement of relevant adds for the targeted visitor groups.
+Content sells and the site might generate an income for the site owner. 
 
-## User goals
+## Visitor goals
 
-### New user goals:
-- user is able to find information about professional fitness trainer.
-- user can easily locate class description, personal training sessions description and diet coaching sessions description.
-- find location of the place and contact information.
+### New visitor goals:
+- the visitor will find a continuosly growing source of information around dandelion.
+- the visitor is encouraged to send in own ideas and recipes using the contact form.
+- giving the site visitor to participate in the site will establish an emotional connection to the site.
 
-### Returning user goals:
-- user can learn more about instructor.
-- user is able to find timetable.
-- user can send a message to the instructor using a contact form.
+### Returning visitor goals:
+- visitors are interested in finding new posts.
+- visitors will return to see their recepies and ideas published.
 
-## User stories
-
-### As a business owner:
-* I would like to present myself and my offer on the website clearly to potential customers.
-* I need to make sure that my current and new customers will find a professional help with their diets, personal or group trainings.
-* I want my customers to be able to learn how to use my website intuitively and easily.
-* I would like to build and maintain relationship with potential and current customers.
-
-### As a new customer:
-* I wish to find information about personal trainer and check her/his qualifications.
-* I would like to contact with a diet coach to change my eating habits and start healthy lifestyle. 
-* I want to join in a fitness group with professional trainer, to find motivation and spend time actively.
-
-### As a returning customer:
-
-* I need to contact my diet coach to reschedule my meeting.
-* I would like to check timetable for current days and times for a group trainings.
-* I want to show my friend a location of the fitness studio where we can join for a semi private personal training.
-
-## Structure of the website
-
-The website is designed to be easy and user-friendy on all type of devices. On desktop, tablet or mobile device there should be no difference for a user to have a fantastic experience. All parts are designed to achieve maximum user satisfaction. User will get some interaction from the interface as links and buttons will have a hover effects.
-
-## Surface
-
-### Colors
-Main colours used in a project:
-* background color: #ccddff
-* font color: #6217ee
-* link color: #ff6600
-* hoover color: #ff9000
-
-### Fonts 
-
-* As a main font I used Almarai, and as a backup font sans-serif
-
-### Images
-
-* I used images from [Unspalsh.com](www.unsplash.com) and there are credited in [credits](#credits) section.
+### Frequent visitor goals:
+- visitors are interested in finding new ideas and recipes.
 
 
 [Back to Table of contents](#table-of-contents)
 ___
 # Features
 
-The website consists of 3 pages. 
+The website has three pages. 
 
 The website has the features listed below:
 
 ## Navigation bar
 
+* The site name/logo is on the left.
+* The menu is on the right.
+    * The menu consists of:
+        * Home
+        * Recipes
+        * Contact Us
+
 * - The navigation bar has a consistent look on all three pages. It is fixed to give the visitor easy access
 		especially on pages with a lot of content like the recipes page. The dropdown menu makes for even more accessability.
 
-		- The navigation bar will drop underneath the logo on devices with a max width of 900px and less.
+	- The navigation bar will drop underneath the logo on devices with a max width of 900px and less.
 
-      ![Navbar](/assets/images/navbar.jpg)
+ ![Navbar](/assets/images/navbar.jpg)
+ ![Homemenu](/assets/images/homemenu.jpg)
+ ![Recipesmenu](/assets/images/recipesmenu.jpg)
 
+## The page header image
 
-    * On left side there is a logo. It can be used as navigation link to the main page.
-    * On right side there are four links or burger menu. It contains:
-        * Home
-        * About me
-        * Offer
-        * Contact
+* The page header image includes a drawing of a dandelion picturing three different growing stages.
+* Underneath is an animated text showing a different quote for each page. On devices with a width of
+	less than 480px the image will change into a single dandelion plant.
 
-## Timetable
+	![Header](/assets/images/headerimg.jpg)
 
-* Each site has a timetable on the bottom. Customers can find classes times here.
+## Info section
+
+* Explains, what the page is about and asks visitors to participate.
+* The visitor will get informations about Why Dandelion, where it grows, what parts you can eat and
+	if there is a medical benefit to dandelion.
 
 ## Footer
 
-* Footer is consistent on all pages. It has contact details on left side and social links on right side.
-Each link will open in a separate tab in a browser.
+* The footer is consistent on all three pages. Social links are centered. A copyright is posted centered blelow
+the social links. Each link will open in a separate tab in a browser.
+* The social media links will give the visitor to meet like minded people on their favorite social media.
 
-## Home
+![Footer](/assets/images/footer.jpg)
 
-* ### Portfolio section
+## The recipes page
 
-    * Portfolio includes an image on the left side and profession information on the right side.
-This section is consistent on all pages.
+* The visitor will find three recipes explained in detail and supported by step by step photos.
+* The navigation is made easy by either jumping directly to the recipe by using the link at the
+	end of the recipe introduction or using the navigation bar.
 
-* ### Career path section
+## The Contact Us page
 
-    * Career path section contains top achievements and career  points. It is presented as a timeline.
+* The Contact Us page gives the visitor the possibility to sign up for the Dandelion101 newsletter
+	and/or to send in their recipes or messages.
+* The user can choose a category for the message.
+* The user can also choose if the recipe should be published, if it's ok to publish the visitors name
+	and to get a link to his reipe as soon as it is published.
 
-* ### Packages section
+![Form1](contactus1.jpg)
+![Form2](contactus2.jpg)
 
-    * This part has three packages to choose for a customers. All buttons are linked to offer site.
+## Features Left to implement
 
-## About me
-
-* About me gives information about Annie's life and her professional background.
-
-## Offer
-
-* This site provide packages description to customers.
-Here they can find more information and choose interesting offer.
-
-## Contact
-
-* Contact form is a main part on this site. User can contact by filling a form with interesting topic.
-Below a form there is a map with location of a fitness studio.
-
-##  Future implementations
-
-* Create diet coach offer.
-* Add new site with class descriptions.
-* A blog site with fitness advises.
-* Login site for paid content including videos, meals ideas and recipes.
-
+* In the future there will be a Dropdown Menu in alphabetical order to easily find a recipe by name or by author.
+* On the recipes page could be a recipe of the week.
+* A ranking and comment section for each recipe.
 
 [Back to Table of contents](#table-of-contents)
 ___
-# Technologies used
+# Technologies and programs used
 
 ### HTML5
-* As a structure language.
+* To structure the page.
 
 ### CSS
-* As a style language.
-
-### Bootstrap 
-* Bootstrap@4.5.3 as a CSS framework to keep responsive, mobile first aproach.
+* To style the page.
 
 ### Font Awesome
-* As an icon library for a social links.
+* For the social media icons and the triangle in the Home and Recipes menu, when selected.
 
 ### Google fonts
-* As a font resource.
+* I used Caveat Regular 400 for the main headings and the quotes and
+	Nunito for the rest of the page to keep it consistent.
 
 ### GitHub
-* As a software hosting platform to keep project in a remote location.
+* For hosting the code and keeping track of the development process.
 
-### Git
-* As a version-control system tracking.
+### GitHub Pages
+* For hosting the page.
 
-### Gitpod
-* As a development hosting platform.
+### GitHub Desktop
+* To be able to use my IDE offline and update the code when neccessary.
 
-### Wireframe.cc
-* As a wireframing tool.
+### Visual Studio Code
+* The IDE I use.
 
-### GNU Image Manipulation Program [GIMP]
-* As an image editor.
+### Adobe Photoshop
+* As an image editor to resize and alter images.
 
-
-[Back to Table of contents](#table-of-contents)
-
-___
-# Testing
-
-## Functionality testing 
-
- I used Mozilla web developer tools and Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues.
- 
- [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) extension to chrome browser was very helpful.
-
-
-## Compatibility testing
- Site was tested across multiple virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools. 
- 
- I tested on hardware devices such as: Lenovo ideapad with Ubuntu and Windows OS's, Lenovo smartphone with Android 7, Google pixel 3 with Android 11.
-
-
-## User stories testing
-
-### As a business owner:
-
-- I would like to present myself and my offer on the website clearly to potential customers.
-    > Name, photo of the instructor and top skills are on each page in portfolio section. Career path section at home page provides more details.
-
-- I need to make sure that my current and new customers will find a professional help with their diets, personal or group trainings.
-    > Customers can achieve this by contacting through contact form. They can choose interesting topic and describe their needs in a message box.
-
-- I want my customers to be able to learn how to use my website intuitively and easily.
-    > Each site has a fixed navigation menu and is accessible at all times. All content is presented with minimalistic approach.
-
-- I would like to build and maintain relationship with potential and current customers.
-    > Customers are able to find a links to social channels at the bottom of each page. Alternatively they can contact by email or contact form.
-
-
-### As a new customer:
-- wish to find information about personal trainer and check her/his qualifications.
-    > User can see essential description on the home page. More information can be find in about page.
-
-- I would like to contact with a diet coach to change my eating habits and start healthy lifestyle.
-    > User can find a contact form in contact page. Alternatively can use an email. Email address if located in a footer the bottom of each page.
-
-- I want to join in a fitness group with professional trainer, to find motivation and spend time actively.
-    > Brief class description of fitness group classes can be find on the home page below career path section. Offer site provides more detailed description. Frome there user can click contact us button and send a message to the traier.
-
-### As a returning customer:
-- I need to contact my diet coach to reschedule my meeting.
-    > User can find a contact form in contact page. Alternatively can use social channels or email.
-
-- I would like to check timetable for current days and times for a group trainings.
-    > Each site has time table at the bottom of the page.
-
-- I want to show my friend a location of the fitness studio where we can join for a semi private personal training.
-    > Each page contains location information in a footer. Users are able to find a location map in contact page.
-
-
----
-## Issues found during site development
-
-* #### Horizontal scrolling bar on the bottom of the screen.
-![testing_issue_1](testing/testing_issue_1.png)
-
-I used [grid markup](https://getbootstrap.com/docs/4.5/components/card/#header-and-footer)
-to create two sepereate collumns. To achieve this I had to use *.row* in first *div* element and *.col-sm-6* in the second *div* element.
-After that I found that horizontal scrolling bar appear on the bottom of the screen.
-Using mozilla developer tools I noticed that by default class *.row* has *margin-right: -15px;* and *margin-left: -15px;*
-
-To fix this I created new class *.no-row-margin* and set both margins to 0px.
-
-> After I gain more experience with bootstrap I found that I could achive this by [no-gutters](https://getbootstrap.com/docs/4.0/layout/grid/#no-gutters) class.
-
-> I read bootstrap documentation about [Spacing](https://getbootstrap.com/docs/4.0/utilities/spacing/) and I decided to use predefined classes for paddings and margins in the project.
-By doing this I think my code looks cleaner and will be easier to understand by other developers.
-
-
-* #### Ipad screen compatibility
-
-I found a bugs on Ipad screens. I would like to keep years dates just above the stars, but they were shifted.
-
-![testing_issue_2](testing/testing_ipad_screen.png)
-
-I had to create a block element with a class "ipad-screen" and non-breaking space element inside a block element.
-In CSS file I had to create @media rule that will show this block element on Ipad displays only.
-
->}
-@media screen and (max-width: 991px) and (min-width: 0px),(min-width:1200px){
-    .ipad-screen {
-    display: none;
-}
-}
-
-![bug_solutino1](testing/bug_solution1.png)
-
-![bug_solutino2](testing/bug_solution2.png)
-
-## Performance testing
-
-I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website.
-I had to do couple of changes to improve performance. Screenshots are presented below:
-
-![bug_performance1](testing/performance1.png)
-![bug_performance2](testing/performance2.png)
-
-Final results:
-![performance_final](testing/performance_final.png)
-I noticed that this tests scores vary from time to time and depends on external libraries as well. 
-
-
-
-## Code Validation
- At the and of the project I used two websites to validate a code
- 
- * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS
- * [Nu Html Checker](https://validator.w3.org/) to test HTML
-
+### Adobe Illustrator
+* As a drawing program.
 
 [Back to Table of contents](#table-of-contents)
-
-___
-# Deployment
-
-The project was deployed on GitHub Pages. I used Gitpod as a development environment where I commited all changes to git version control system.
-I used push command in Gitpod to save changes into GitHub.
-
-To deploy a project I had to:
-
-* Log in to GitHub and click on repository to deploy ([MP1](https://github.com/marcin-kli/MP1))
-* select `Settings` and find GitHub Pages section at the very bottom of the page
-* from source select `none` and then `Milestone-Projects` branch.
-* click `save` and page was deployed after auto-refresh.
->  Your site is published at https://marcin-kli.github.io/MP1/
-
-To run localy:
-* Log in to GitHub and click on repository to download ([MP1](https://github.com/marcin-kli/MP1))
-* select `Code` and click Download the ZIP file.
-* after download you can extract the file and use it in your local environment 
-
-Alternatively you can [Clone](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
-or [Fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
-this repository ([MP1](https://github.com/marcin-kli/MP1)) into your github account.
-
-[Back to Table of contents](#table-of-contents)
-___
-# Credits
-
-
-* To complete this project I used Code Institute student template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
-
-* Ideas and knowledge library:
-
-    * [w3schools.com](https://www.w3schools.com)
-
-    * [css-tricks.com](https://css-tricks.com/)
-
-    * [getbootstrap.com/docs](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
-        I used code for navbar, jumbotron and card from Bootstrap.
-
-### Code
-
-* Links transition: [CSS transition Property](https://www.w3schools.com/cssref/css3_pr_transition.asp)
-* Bootstrap: [Kitchen sink](https://getbootstrap.com/docs/4.0/components/card/#kitchen-sink)
-* Bootstrap: [Burger menu](https://getbootstrap.com/docs/4.5/components/navbar/#text)
-* Bootstrap: [Jumbotron](https://getbootstrap.com/docs/4.5/components/jumbotron/)
-* Bootstrap: [Form](https://getbootstrap.com/docs/4.5/components/forms/)
-### Content:
-*  General content:  [fitlife.ie](http://fitlife.ie/lessons-its-your-life-your-fit-life/)
-
-### Map location:
-* [fitlife.ie](http://fitlife.ie/)
-
-### Map:
-* [Google maps](https://www.google.com/maps?ll=52.059441,-9.511501&z=16&t=m&hl=en-US&gl=US&mapclient=embed&cid=7306226195280410511)
-
-### Images:
-
-#### Unsplash.com:
-* [annie-spratt--l-eemJU0vE-unsplash.jpg](https://unsplash.com/photos/-l-eemJU0vE)
-
-* [ziphaus-SZ40Lbw1P5o-unsplash.jpg](https://unsplash.com/photos/SZ40Lbw1P5o)
-
-* [bruce-mars-y0SMHt74yqc-unsplash.jpg](https://unsplash.com/photos/y0SMHt74yqc)
-
-* [luis-quintero-EPrjIYQrpkU-unsplash.jpg](https://unsplash.com/photos/EPrjIYQrpkU)
-
-* [sven-scheuermeier-saGbrA6s8g0-unsplash.jpg](https://unsplash.com/photos/saGbrA6s8g0)
-
-
-[Back to Table of contents](#table-of-contents)
-___
-
-# Screenshots
-
-## Project screenshots
-
-![bug_performance1](md_images/screenshots/home_1.png)
-
-![bug_performance1](md_images/screenshots/home_2.png)
-
-![bug_performance1](md_images/screenshots/about.png)
-
-![bug_performance1](md_images/screenshots/offer_1.png)
-
-![bug_performance1](md_images/screenshots/offer_2.png)
-
-![bug_performance1](md_images/screenshots/offer_3.png)
-
-![bug_performance1](md_images/screenshots/contact.png)
-
-
-[Back to Table of contents](#table-of-contents)
-___
-
-
-
