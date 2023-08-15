@@ -163,3 +163,47 @@ ___
 * As a drawing program.
 
 [Back to Table of contents](#table-of-contents)
+
+## Validation
+
+### HTML Validation
+I used the Nu Html Checker on http://validator.w3.org. All pages passed with no errors and no warnings to show.
+![index](/assets/images/checkerindex.jpg)
+![recipes](/assets/images/checkerrecipes.jpg)
+![contact](/assets/images/checkercontact.jpg)
+
+### CSS Validation
+I used the Jigsaw Validator found under http://jigsaw.w3.org for validating the index.css.
+![indexcss](/assets/images/checkercss.jpg)
+### Performance 
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. 
+
+<details><summary>Home</summary>
+<img src="docs/validation/lighthouse-performance-index.jpg">
+</details>
+<details><summary>About</summary>
+<img src="docs/validation/lighthouse-performance-about.jpg">
+</details>
+<details><summary>Menu</summary>
+<img src="docs/validation/lighthouse-performance-menu.jpg">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/validation/lighthouse-performance-gallery.jpg">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/validation/lighthouse-performance-contact.jpg">
+</details>
+
+### Performing tests on various devices 
+The website was tested on the following devices:
+- Lenovo Yoga 2 Pro (both in pc and tablet mode)
+- Honor 20 pro
+- Xiaomi Redmi Note 7
+
+In addition, the website was tested using Google Chrome Developer Tools Device Toggeling option for all available device options.
+
+### Browser compatability
+The website was tested on the following browsers:
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Egde
